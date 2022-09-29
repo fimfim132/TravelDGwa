@@ -1,0 +1,60 @@
+name: se_app2
+description: A new Flutter application.
+version: 1.0.0+1
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  geolocator: ^7.4.0
+  geocoding: ^2.0.2
+  animated_textformfields: ^1.0.1
+  flutter_animated_button: ^1.0.0
+  flutter_rating_bar: ^4.0.0
+  google_fonts: ^2.2.0
+  mongo_dart: ^0.7.4
+  date_time_picker: ^2.1.0
+  flutter:
+    sdk: flutter
+  dio: ^4.0.4
+  http: ^0.13.4
+  intl: ^0.17.0
+  flutter_material_pickers: ^3.1.2
+  ionicons: ^0.1.2
+  flutter_boxicons: ^3.0.0
+  getwidget: ^2.0.4
+  carousel_slider: ^4.0.0
+  smooth_page_indicator: ^1.0.0+2
+  dotted_line: ^3.1.0
+
+  # state management
+  provider: ^6.0.2
+  # slidable
+  flutter_slidable: ^0.5.7
+  image_picker: ^0.8.1
+
+  convex_bottom_bar:
+    path: ./convex_bottom_bar-master-2.5.1+1/
+  animations: ^2.0.2
+  shared_preferences: ^2.0.13
+
+  cupertino_icons: ^1.0.2
+  google_place: ^0.4.7
+  google_maps_flutter: ^2.1.2
+  font_awesome_flutter: ^10.0.0
+  ml_algo: ^16.5.2
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/dataset/
